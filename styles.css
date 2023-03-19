@@ -2,7 +2,6 @@ body {
   background: linear-gradient(180deg, rgb(20, 20, 20), rgb(27, 27, 27));
   color: rgb(249, 182, 58);
   margin: 0;
-  height: 100vh;
   font-family: "Open Sans", Courier, monospace;
 }
 main {
@@ -20,13 +19,13 @@ li {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 3rem;
 }
 
 #main-logo {
-  font-size: 35px;
+  font-size: 2.3rem;
   font-weight: bold;
-  padding: 20px;
+  padding: 1.4rem;
 }
 .navbar {
   display: flex;
@@ -34,17 +33,17 @@ h1 {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(10, 10, 10);
-  height: 80px;
-  padding: 0 20px;
+  height: 6rem;
+  padding: 0 5%;
 }
 
 .navbar ul {
   margin: 0;
   display: flex;
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 .navbar li {
-  margin: 20px;
+  margin: 1.25rem;
 }
 .navbar li a:hover {
   color: rgb(255, 166, 0);
@@ -54,9 +53,9 @@ main ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-  gap: 10px;
+  gap: .7rem;
   width: 80%;
-  margin: 30px auto;
+  margin: 2rem auto;
   box-sizing: border-box;
 padding: 0;
   justify-content: center;
@@ -66,8 +65,8 @@ padding: 0;
 
   height: 100%;
   background-color: rgb(247, 222, 175);
-  border-radius: 10px;
-  padding-bottom: 7px;
+  border-radius: .7rem;
+  padding-bottom: .7rem;
   color: rgb(28, 27, 27);
   overflow: hidden;
   box-shadow: 2px 2px 4px black;
@@ -75,11 +74,11 @@ padding: 0;
 
 .food-card .btn {
   text-decoration: none;
-  padding: 8px 13px;
+  padding: .5rem .8rem;
   color: white;
   background-color: rgb(249, 182, 58);
   border-radius: 6px;
-  margin: 10px;
+  margin: .7rem;
 }
 .food-card .btn:hover {
   background-color: rgb(249, 164, 6);
