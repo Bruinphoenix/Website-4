@@ -1,0 +1,30 @@
+/* changes css for moble devices */
+@media (max-width: 48rem) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  /* turns off the navbar buttons when in portrait mode  */
+  .navbar ul {
+    display: none;
+  }
+
+  #main-logo {
+    font-size: 1.6rem;
+  }
+
+  /* changes grid layout from 2 to 1 columns */
+  main ul {
+    grid-template-columns: 1fr;
+    row-gap: 1.6rem;
+  }
+
+  .menu-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  
+}
